@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="./Num_baseball_game.css">
+  <script src="./Num_baseball_game.js" defer></script>
+</head>
+<body>
+  <h1 id="Game_title">숫자 야구 게임</h1>
+  <div id="Game_start_container"><button id="Game_start" onclick="gameStart()">게임 시작</button></div>
+  <div id="Game_Howto_container">
+    <ul id="Game_Howto">
+      <li>숫자의 값과 위치가 모두 일치하면 Strike</li>
+      <li>숫자의 값은 일치하지만 위치가 틀렸으면 Ball</li>
+      <li>숫자 3개를 모두 맞춘 경우, 게임을 종료합니다.</li>
+    </ul>
+  </div>
+  <form action="" id="User_form"> 
+    <input type="text" id="User_input" disabled="true">
+    <button>확인</button>
+  </form>
+  <div id="Game_logs_box">
+    <div id="Game_logs_text"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 90%;
+  margin: 10 0 0 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+#Game_title {
+  text-align: center;
+  margin: 0px;
+}
+
+#Game_start_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0 0 0;
+}
+
+button {
+  background-color: bisque;
+  font-size: 0.8em;
+  border: none;
+}
+
+#Game_start {
+  background-color:salmon;
+  font-size: 1.0em;
+  font-weight: 600;
+}
+
+#Game_Howto_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  font-size: 0.8em;
+}
+
+#User_form {
+  margin: 0px 50px 15px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#User_input {
+  width: 200px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+#Game_logs_box {
+  width: 100%;
+  height: 100%;
+  border-color: black;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#Game_logs_text {
+  padding: 5px;
+  width: 300px;
+  font-size: 0.8em;
+  background-color: bisque;
+  color: crimson;
+}
